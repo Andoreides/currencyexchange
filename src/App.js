@@ -9,7 +9,7 @@ function App() {
     return (
         <div className="App">
             <Routes>
-                <Route exact path="/" element={<StartedPage />} />
+                <Route path="/" element={<StartedPage />} />
                 <Route path="/allcurrencies" element={<EveryCurrency />} />
                 <Route path="/popularCurrencies" element={<PopularCurrencies />} />
             </Routes>
